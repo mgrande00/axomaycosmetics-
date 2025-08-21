@@ -1,0 +1,38 @@
+<!-- Contact Section -->
+<section class="contact-section" id="contact">
+  <div class="contact-card">
+    <h2>Contact</h2>
+    <p><strong>Name:</strong> Maria Grande</p>
+    <p><strong>Location:</strong> Mexico</p>
+    <p><strong>Email:</strong> 
+      <a href="mailto:Atlixco@hotmail.com">Atlixco@hotmail.com</a>
+    </p>
+  </div>
+</section>
+
+<style>
+  :root {
+    --bg: #f8fafc;       /* light background */
+    --card: #ffffff;
+    --accent: #22c55e;   /* green accent */
+    --text: #0f172a;     /* dark text */
+  }
+
+  .contact-section {
+    background: var(--bg);
+    padding: 4rem 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-card {
+    background: var(--card);
+    padding: 2rem;
+    border-radius: 1.25rem;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .con
